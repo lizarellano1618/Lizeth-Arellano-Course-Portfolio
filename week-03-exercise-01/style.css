@@ -1,0 +1,26 @@
+*{box-sizing:border-box;}
+body {
+    color: #959494;
+    font-family: Garamond;
+    background-color: #40dde6;
+    margin: 20px;
+    padding: 15px;
+}
+.card {
+    background-color: #000000;
+    border: 4px solid rgb(86, 87, 87);
+    padding: 20px;
+    margin: 0px auto;
+    max-width: 600px;
+}
+    h1 {
+        color: #ffffff;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #959494;
+        font-size: 20px;
+        margin: 10px;
+    }
+
