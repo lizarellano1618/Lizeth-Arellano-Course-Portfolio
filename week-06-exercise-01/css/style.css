@@ -147,15 +147,27 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-centered{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #002d65;
+  padding: 15px;
+}
 
 .nav-custom ul {}
 
 .nav-custom li {}
 
-.nav-custom a {}
+.nav-centered a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
 
-.nav-custom a:hover {}
+.nav-centered a:hover {
+  color: #0066CC;
+}
 
 @media (width >=480px) {}
 
